@@ -55,11 +55,12 @@ body {
 	line-height: 1.7;
 }
 h1 {
-	font-size: 44px;
+	font-size: 32px;
 	line-height: 1.2;
 	font-weight: bold;
 	color: white;
 	font-weight: bold;
+	text-decoration: underline overline #FF3028;
 }
 h2 {
 	font-size: 24px;
@@ -77,8 +78,11 @@ header{
 	text-align: center;
 	background-color: #415165; 
 	margin-bottom: 35px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 main {
 	text-align: center;
